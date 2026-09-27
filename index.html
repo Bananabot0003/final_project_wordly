@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Wordly Dictionary</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <main class="container">
+
+    <h1>Wordly Dictionary</h1>
+
+    <p class="subtitle">
+      Search for a word to find its definition, pronunciation, and synonyms.
+    </p>
+
+    <form id="search-form">
+      <label for="word-input">Search for a word:</label>
+
+      <div class="search-box">
+        <input
+          type="text"
+          id="word-input"
+          placeholder="Enter a word"
+          aria-label="Enter a word to search"
+        >
+
+        <button type="submit">Search</button>
+      </div>
+    </form>
+
+    <section id="results">
+      <h2>Results</h2>
+
+      <div id="word-result">
+        Search for a word to get started.
+      </div>
+    </section>
+
+  </main>
+
+  <script src="index.js"></script>
+
+</body>
+</html>
